@@ -1,3 +1,4 @@
+from library.ejercicios import*
 def main():
     while True:        
 
@@ -11,9 +12,9 @@ def main():
         opcionMenu = input("inserta un numero valor >> ")
 
         if opcionMenu=="1":  
-            print ("")
+            agregar(vec,diccionario)
         elif opcionMenu=="2":
-            print ("")
+            mostrar(vec,diccionario)
         elif opcionMenu=="3":
             print ("")
         elif opcionMenu=="4":
