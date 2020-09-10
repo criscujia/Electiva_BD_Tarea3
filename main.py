@@ -1,4 +1,6 @@
 from library.ejercicios import*
+from os import system
+
 def main():
     while True:        
 
@@ -13,14 +15,23 @@ def main():
 
         if opcionMenu=="1":  
             agregar(vec,diccionario)
+            input("\npulse una tecla para continuar")
+            system("cls")
         elif opcionMenu=="2":
             mostrar(vec,diccionario)
+            input("\npulse una tecla para continuar")
+            system("cls")
         elif opcionMenu=="3":
             buscar (vec,diccionario)
+            input("\npulse una tecla para continuar")
+            system("cls")
         elif opcionMenu=="4":
             eliminar (vec,diccionario)
+            input("\npulse una tecla para continuar")
+            system("cls")
         elif opcionMenu=="5":
-            print ("")
+            print ("\npulse una tecla para continuar")
+            system("cls")
             break
         else:
             print ("")

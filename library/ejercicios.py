@@ -1,5 +1,8 @@
 
+from os import system
+
 def agregar(vec,diccionario):
+    system("cls")
     diccionario = {}
 
     diccionario ['id'] = input("Ingresa el id del funcionario >> ")
@@ -11,6 +14,7 @@ def agregar(vec,diccionario):
 
 
 def mostrar(vec,diccionario):
+    system("cls")
 
     print ("-----------------------------------------------------------------------")
     for dic in vec:
@@ -22,6 +26,7 @@ def mostrar(vec,diccionario):
 
 
 def buscar(vec,diccionario):
+    system("cls")
     bus = input("Ingresa el nombre del funcionario a buscar >> ")
     b = 0
 
@@ -39,6 +44,7 @@ def buscar(vec,diccionario):
 
 
 def eliminar(vec,diccionario):
+    system("cls")
     el = input("Ingresa el nombre del funcionario a eliminar >> ")
     b = 0
 
@@ -48,6 +54,6 @@ def eliminar(vec,diccionario):
             vec.remove(eldic)
             print(f'Los datos del funcionario {el} han sido eliminados ')
     if b == 0:
-        print(f'\nFuncionario {bus} no encontrado\n')
+        print(f'\nFuncionario {el} no encontrado\n')
     print ("-----------------------------------------------------------------------")    
     
