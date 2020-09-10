@@ -16,9 +16,9 @@ def main():
         elif opcionMenu=="2":
             mostrar(vec,diccionario)
         elif opcionMenu=="3":
-            print ("")
+            buscar (vec,diccionario)
         elif opcionMenu=="4":
-            print ("")
+            eliminar (vec,diccionario)
         elif opcionMenu=="5":
             print ("")
             break
